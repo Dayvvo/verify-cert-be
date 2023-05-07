@@ -1,5 +1,5 @@
 {
-  "name": "peepsdb",
+  "name": "verify-cert",
   "version": "1.1.0",
   "description": "Database",
   "main": "server.js",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/oluwakemi-dada/peepsdb.git"
+    "url": "https://github.com/dayvvo/verify-cert-be.git"
   },
   "author": "",
   "license": "ISC",
