@@ -1,0 +1,57 @@
+{
+  "name": "peepsdb",
+  "version": "1.1.0",
+  "description": "Database",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "set NODE_ENV=development && nodemon server.js",
+    "client": "yarn start --prefix frontend"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/oluwakemi-dada/peepsdb.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "https-localhost": "^4.7.1",
+    "nodemon": "^2.0.12"
+  },
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.186.0",
+    "@aws-sdk/s3-request-presigner": "^3.186.0",
+    "@azure/identity": "^2.0.0",
+    "@azure/keyvault-secrets": "^4.3.0",
+    "aws-sdk": "^2.1231.0",
+    "axios": "^0.27.2",
+    "bluebird": "^3.7.2",
+    "body-parser": "^1.20.2",
+    "compression": "^1.7.4",
+    "config": "^3.3.6",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-device": "^0.4.2",
+    "express-rate-limit": "^6.6.0",
+    "express-session": "^1.17.2",
+    "express-validator": "^6.12.1",
+    "google-spreadsheet": "^3.3.0",
+    "ipfs-http-client": "56",
+    "jsonwebtoken": "^8.5.1",
+    "lowdb": "^1.0.0",
+    "moment": "^2.29.4",
+    "mongoose": "^5.13.7",
+    "morgan": "^1.10.0",
+    "passport": "^0.4.1",
+    "passport-azure-ad": "^4.3.4",
+    "passport-facebook": "^3.0.0",
+    "passport-github": "^1.1.0",
+    "passport-github2": "^0.1.12",
+    "passport-google-oauth20": "^2.0.0",
+    "passport-linkedin-oauth2": "^2.0.0",
+    "passport-microsoft": "^0.1.0",
+    "splunk-logging": "^0.11.1"
+  }
+}
